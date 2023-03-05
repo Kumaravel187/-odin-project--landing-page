@@ -1,0 +1,36 @@
+@import "./variables";
+
+.landing-intro {
+  display: flex;
+  justify-content: center;
+  width: $width;
+  margin-top: 2rem;
+  .landing-description {
+    width: 50%;
+    padding: 1rem 1rem 1rem 0;
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+    button {
+      border: none;
+      font-size: 1rem;
+      padding: 1rem 2.5rem;
+      cursor: pointer;
+      color: #000;
+      background-color: pink;
+      border-radius: 2rem;
+    }
+  }
+  .landing-image {
+    border: 1px solid black;
+    background: url(../images/kind.jpg) no-repeat center/cover;
+    height: 300px;
+    width: 50%;
+  }
+}

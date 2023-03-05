@@ -10,6 +10,41 @@
   gap: 1rem;
 }
 
+.landing-intro {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin-top: 2rem;
+}
+.landing-intro .landing-description {
+  width: 50%;
+  padding: 1rem 1rem 1rem 0;
+}
+.landing-intro .landing-description h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+.landing-intro .landing-description p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.landing-intro .landing-description button {
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  color: #000;
+  background-color: pink;
+  border-radius: 2rem;
+}
+.landing-intro .landing-image {
+  border: 1px solid black;
+  background: url(../images/kind.jpg) no-repeat center/cover;
+  height: 300px;
+  width: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -25,38 +60,4 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-body .landing-intro {
-  display: flex;
-  justify-content: center;
-  width: 900px;
-  margin-top: 2rem;
-}
-body .landing-intro .landing-description {
-  width: 50%;
-  padding: 1rem 1rem 1rem 0;
-}
-body .landing-intro .landing-description h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-}
-body .landing-intro .landing-description p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-}
-body .landing-intro .landing-description button {
-  border: none;
-  font-size: 1rem;
-  padding: 1rem 2.5rem;
-  cursor: pointer;
-  color: #000;
-  background-color: pink;
-  border-radius: 2rem;
-}
-body .landing-intro .landing-image {
-  border: 1px solid black;
-  background: url(../images/kind.jpg) no-repeat center/cover;
-  height: 300px;
-  width: 50%;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
