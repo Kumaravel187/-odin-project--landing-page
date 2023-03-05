@@ -1,0 +1,10 @@
+.nav-container {
+  display: flex;
+  width: $width;
+  justify-content: space-between;
+  letter-spacing: 0.1rem;
+  .header-link {
+    display: flex;
+    gap: 1rem;
+  }
+}
