@@ -1,0 +1,32 @@
+@import "./variables";
+
+.information-cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $width;
+  h2 {
+    margin: 1rem 0;
+  }
+}
+.card-container {
+  // border: 1px solid red;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  width: $width;
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    .card-outline {
+      width: 150px;
+      height: 150px;
+
+      background-color: pink;
+    }
+  }
+}

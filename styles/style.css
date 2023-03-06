@@ -45,6 +45,36 @@
   width: 50%;
 }
 
+.information-cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+.information-cards h2 {
+  margin: 1rem 0;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  width: 900px;
+}
+.card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.card-container .card .card-outline {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+}
+
 * {
   padding: 0;
   margin: 0;
