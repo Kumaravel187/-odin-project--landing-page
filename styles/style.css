@@ -73,6 +73,8 @@
   width: 150px;
   height: 150px;
   background-color: pink;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
 .quote-container {
