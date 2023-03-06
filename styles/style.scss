@@ -6,6 +6,7 @@
 @import "./section-three";
 @import "./section-four";
 @import "./section-five";
+@import "./section-six";
 
 * {
   padding: 0;
@@ -23,4 +24,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .section-one,
+  .section-two,
+  .section-three,
+  .section-four,
+  .section-five,
+  .section-six {
+    padding: 0 2rem;
+  }
+  .section-one {
+    background-color: #dcdcdc;
+  }
+  .section-two {
+    background-color: #d8d8d8;
+  }
+  .section-three {
+    background-color: #d3d3d3;
+  }
+  .section-four {
+    background-color: #d0d0d0;
+  }
+  .section-five {
+    background-color: #c0c0c0;
+  }
+  .section-six {
+    background-color: #bebebe;
+  }
 }

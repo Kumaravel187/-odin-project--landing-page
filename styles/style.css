@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Red+Hat+Display&display=swap");
 .nav-container {
   display: flex;
-  width: 900px;
+  width: 1000px;
   justify-content: space-between;
   letter-spacing: 0.1rem;
 }
@@ -13,7 +13,7 @@
 .landing-intro {
   display: flex;
   justify-content: center;
-  width: 900px;
+  width: 1000px;
   margin-top: 2rem;
 }
 .landing-intro .landing-description {
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  width: 1000px;
 }
 .information-cards h2 {
   margin: 1rem 0;
@@ -60,7 +60,7 @@
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  width: 900px;
+  width: 1000px;
 }
 .card-container .card {
   display: flex;
@@ -76,7 +76,7 @@
 }
 
 .quote-container {
-  width: 900px;
+  width: 1000px;
   margin-top: 2rem;
   padding: 3rem;
 }
@@ -92,7 +92,7 @@
 }
 
 .sign-up {
-  width: 900px;
+  width: 1000px;
   padding: 3rem;
 }
 .sign-up .sign-up-container {
@@ -122,6 +122,17 @@
   border-radius: 10px;
 }
 
+.footer {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.footer p {
+  letter-spacing: 1.5px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -137,4 +148,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+body .section-one,
+body .section-two,
+body .section-three,
+body .section-four,
+body .section-five,
+body .section-six {
+  padding: 0 2rem;
+}
+body .section-one {
+  background-color: #dcdcdc;
+}
+body .section-two {
+  background-color: #d8d8d8;
+}
+body .section-three {
+  background-color: #d3d3d3;
+}
+body .section-four {
+  background-color: #d0d0d0;
+}
+body .section-five {
+  background-color: #c0c0c0;
+}
+body .section-six {
+  background-color: #bebebe;
 }/*# sourceMappingURL=style.css.map */
