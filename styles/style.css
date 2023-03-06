@@ -75,6 +75,22 @@
   background-color: pink;
 }
 
+.quote-container {
+  width: 900px;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.quote-container p {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+.quote-container span {
+  display: block;
+  text-align: right;
+  font-weight: 900;
+}
+
 * {
   padding: 0;
   margin: 0;

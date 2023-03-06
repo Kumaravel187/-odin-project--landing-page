@@ -1,0 +1,18 @@
+@import "./variables";
+
+.quote-container {
+  width: $width;
+  margin-top: 2rem;
+  padding: 3rem;
+
+  p {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+  span {
+    display: block;
+    text-align: right;
+    font-weight: 900;
+  }
+}
