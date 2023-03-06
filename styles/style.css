@@ -91,6 +91,37 @@
   font-weight: 900;
 }
 
+.sign-up {
+  width: 900px;
+  padding: 3rem;
+}
+.sign-up .sign-up-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: pink;
+  border-radius: 15px;
+  padding: 2rem;
+}
+.sign-up .sign-up-container .action h3 {
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+}
+.sign-up .sign-up-container .action p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sign-up .sign-up-container button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
